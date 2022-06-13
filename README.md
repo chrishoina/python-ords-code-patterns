@@ -9,6 +9,8 @@ Current open ORDS endpoints:
 ### All tables (excluding the U.S. RSE/RS table) include: 
 *These are all New U.S. single-family houses sold xfinance type used; depending on the table the years will range from 1978-2021*
 
+Data included:
+
 - Year 
 - Total units sold (this is an aggregate of both attached and detached homes)
 - Total units sold using convential loans
@@ -30,7 +32,8 @@ Current open ORDS endpoints:
 
 ### RSE/RS Table includes: 
 *This table shows R.S.E Relative Standard Error (in percent) / S.E. Standard Error (in percentage points).* 
-Data is show by 
+
+Data included:
 
 - Region and:
 
