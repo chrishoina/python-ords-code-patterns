@@ -1,1 +1,1 @@
-
+# information on the ORDS endpoints, and how the tables are structured can be found in the README file https://github.com/chrishoina/python-ords-code-patterns/tree/main#all-tables-excluding-the-us-rsers-table-include
