@@ -33,6 +33,7 @@ Current open ORDS endpoints:
 Data is show by 
 
 - Region and:
+
   - RSE/RS for Total units sold (this is an aggregate of both attached and detached homes)
   - RSE/RS for Total units sold using convential loans
   - RSE/RS for Total units sold using FHA-insured loans
