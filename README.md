@@ -7,7 +7,7 @@ Current open ORDS endpoints:
 *The original dataset was retrived from: https://www.census.gov/construction/chars/* 
 *But it has been transformed slightly so I could create various tables. The URIs are all open/unauthenticaed, and are meant to be used as examples for the related python + ORDS enabled table code snippets.*
 
-All tables (excluging the U.S. RSE/RS table) include: 
+### All tables (excluding the U.S. RSE/RS table) include: 
 - Year 
 - Total units sold (this is an aggregate of both attached and detached homes)
 - Total units sold using convential loans
@@ -15,19 +15,7 @@ All tables (excluging the U.S. RSE/RS table) include:
 - Total units sold using VA-guaranteed loans
 - Total units sold using Cash 
 
-RSE/RS Table includes: 
-*This table shows R.S.E Relative Standard Error (in percent) / S.E. Standard Error (in percentage points).* 
-Data is show by 
-- Region and:
-  - RSE/RS for Total units sold (this is an aggregate of both attached and detached homes)
-  - RSE/RS for Total units sold using convential loans
-  - RSE/RS for Total units sold using FHA-insured loans
-  - RSE/RS for Total units sold using VA-guaranteed loans
-  - RSE/RS for Total units sold using Cash 
-
-
-
-
+#### Tables:
 - U.S Midwest
   - https://gf641ea24ecc468-dbmcdeebyface.adb.us-ashburn-1.oraclecloudapps.com/ords/pythondev/homefin_mwest/
 - U.S. Northeast
@@ -38,5 +26,17 @@ Data is show by
   - https://gf641ea24ecc468-dbmcdeebyface.adb.us-ashburn-1.oraclecloudapps.com/ords/pythondev/homefin_us/
 - U.S West
   -  https://gf641ea24ecc468-dbmcdeebyface.adb.us-ashburn-1.oraclecloudapps.com/ords/pythondev/homefin_west/
+
+### RSE/RS Table includes: 
+*This table shows R.S.E Relative Standard Error (in percent) / S.E. Standard Error (in percentage points).* 
+Data is show by 
+- Region and:
+  - RSE/RS for Total units sold (this is an aggregate of both attached and detached homes)
+  - RSE/RS for Total units sold using convential loans
+  - RSE/RS for Total units sold using FHA-insured loans
+  - RSE/RS for Total units sold using VA-guaranteed loans
+  - RSE/RS for Total units sold using Cash 
+
+#### Table
 - U.S. RSE/SE 
   - https://gf641ea24ecc468-dbmcdeebyface.adb.us-ashburn-1.oraclecloudapps.com/ords/pythondev/homefin_rse_se/
