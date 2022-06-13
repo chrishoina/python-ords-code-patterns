@@ -4,8 +4,7 @@ Various small code snippets that use python to interact with Oracle REST Databas
 Current open ORDS endpoints: 
 
 ## Annual Characteristics of New Housing | Single-Family Sold | New Single-Family Houses sold x Finance Type
-*The original dataset was retrived from: https://www.census.gov/construction/chars/* 
-*But it has been transformed slightly so I could create various tables. The URIs are all open/unauthenticaed, and are meant to be used as examples for the related python + ORDS enabled table code snippets.*
+*The original dataset was retrived from: https://www.census.gov/construction/chars/;  it has been transformed slightly so I could create various tables. The URIs are all open/unauthenticaed, and are meant to be used as examples for the related python + ORDS enabled table code snippets.*
 
 ### All tables (excluding the U.S. RSE/RS table) include: 
 - Year 
