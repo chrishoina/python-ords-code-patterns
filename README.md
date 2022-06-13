@@ -3,10 +3,12 @@ Various small code snippets that use python to interact with Oracle REST Databas
 
 Current open ORDS endpoints: 
 
-## Annual Characteristics of New Housing | Single-Family Sold | New Single-Family Houses sold x Finance Type
-*The original dataset was retrived from: https://www.census.gov/construction/chars/;  it has been transformed slightly so I could create various tables. The URIs are all open/unauthenticaed, and are meant to be used as examples for the related python + ORDS enabled table code snippets.*
+## Annual Characteristics of New Housing
+*The original dataset was retrived from: https://www.census.gov/construction/chars/; it has been transformed slightly so I could create various tables. The URIs are all open/unauthenticaed and are meant to be used as examples for their related python + ORDS enabled table code snippets.*
 
 ### All tables (excluding the U.S. RSE/RS table) include: 
+*These are all New U.S. single-family houses sold xfinance type used; depending on the table the years will range from 1978-2021*
+
 - Year 
 - Total units sold (this is an aggregate of both attached and detached homes)
 - Total units sold using convential loans
@@ -29,6 +31,7 @@ Current open ORDS endpoints:
 ### RSE/RS Table includes: 
 *This table shows R.S.E Relative Standard Error (in percent) / S.E. Standard Error (in percentage points).* 
 Data is show by 
+
 - Region and:
   - RSE/RS for Total units sold (this is an aggregate of both attached and detached homes)
   - RSE/RS for Total units sold using convential loans
