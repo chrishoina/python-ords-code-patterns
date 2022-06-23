@@ -13,7 +13,7 @@ Various small code snippets that use python to interact with Oracle REST Databas
 #### All tables (excluding the U.S. RSE/RS table) include: 
 *These are all New U.S. single-family houses sold xfinance type used; depending on the table the years will range from 1978-2021*
 
-Data included:
+#### Data included:
 
 - Year 
 - Total units sold (this is an aggregate of both attached and detached homes)
@@ -37,10 +37,9 @@ Data included:
 ### RSE/RS Table includes: 
 *This table shows R.S.E Relative Standard Error (in percent) / S.E. Standard Error (in percentage points).* 
 
-Data included:
+#### Data included:
 
 - Region and:
-
   - RSE/RS for Total units sold (this is an aggregate of both attached and detached homes)
   - RSE/RS for Total units sold using convential loans
   - RSE/RS for Total units sold using FHA-insured loans
