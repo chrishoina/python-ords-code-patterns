@@ -22,7 +22,7 @@ Data included:
 - Total units sold using VA-guaranteed loans
 - Total units sold using Cash 
 
-##### Tables:
+#### Tables:
 - U.S Midwest
   - https://gf641ea24ecc468-dbmcdeebyface.adb.us-ashburn-1.oraclecloudapps.com/ords/pythondev/homefin_mwest/
 - U.S. Northeast
