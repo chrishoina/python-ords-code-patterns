@@ -5,9 +5,6 @@ from requests import auth
 
 # url = "https://medium.com/m/signin"
 
-user = "chrishoina@gmail.com"
-password = "Easterntime#14rf@"
-
 url = "https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav-----------"
 
 r = requests.get(url, auth = (user, password))
